@@ -1,0 +1,314 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-color: #3B8AC3;
+}
+
+a {
+    text-decoration: none;
+}
+
+#bg-login {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-login {
+    width: 300px;
+    min-height: 200px;
+    border: 1px solid #ccc;
+    background-color: #EEDBCD;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.box-login h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.input-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.btn {
+    padding: 8px 15px;
+    background-color: #345EA8;
+    color: #EEDBCD;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #3B8AC3;
+}
+
+/*Dashboard*/
+header {
+    background-color: #345EA8;
+}
+
+header h1 {
+    float: left;
+    padding: 10px 0;
+    color: #EEDBCD;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    padding: 20px 5px;
+    margin: auto 5px;
+    display: inline-block;
+    color: #EEDBCD;
+
+}
+
+header ul li a:hover {
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.section {
+    padding: 25px 0;
+}
+
+.box {
+    background-color: #c7c0bb;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px 0 30px 0;
+}
+
+.box:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.box p a {
+    color: rgb(20, 20, 20);
+    font-style: normal;
+}
+
+.box p a:hover {
+    color: black;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table tr {
+    height: 30px;
+}
+
+.table tr td {
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.table tr td .aksi_btn {
+    border-radius: 2px;
+    color: #EEDBCD;
+    background-color: #3B8AC3;
+    padding: 2px 5px 2px 5px;
+    margin: auto 5px;
+}
+
+.table tr td .aksi_hps {
+    border-radius: 2px;
+    color: #EEDBCD;
+    background-color: red;
+    padding: 2px 5px 2px 5px;
+    margin: auto 5px;
+}
+
+.table tr td .aksi_btn:hover {
+    color: rgb(20, 20, 20);
+    background-color: #b6aca5;
+}
+
+.table tr td .aksi_hps:hover {
+    color: rgb(20, 20, 20);
+    background-color: #b6aca5;
+}
+
+.search {
+    padding: 15px 0;
+    background-color: #3B8AC3;
+    border: 1px solid #345EA8;
+    text-align: center;
+}
+
+.search input[type=text] {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.search input[type=submit] {
+    padding: 12px 15px;
+    border-radius: 5px;
+    background-color: #345EA8;
+    color: #EEDBCD;
+    border: none;
+    cursor: pointer;
+}
+
+.col-5 {
+    width: 20%;
+    height: 100px;
+    text-align: center;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.col-4 {
+    width: 25%;
+    height: 320px;
+    border: 1px solid #ccc;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.col-4 img {
+    width: 65%;
+    height: 75%;
+    text-align: center;
+}
+
+.col-4 .nama {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.col-4 .harga {
+    font-weight: bold;
+    color: #345EA8;
+    float: right;
+}
+
+.footer {
+    padding: 25px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer small {
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.col-2 {
+    width: 50%;
+    min-height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.col-2 img {
+    border: 1px solid #f9f9f9;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.col-2 h3 {
+    margin-bottom: 10px;
+}
+
+.col-2 h4 {
+    color: #345EA8;
+}
+
+.col-2 p {
+    margin: 15px 0;
+    text-align: justify;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+    .table {
+        font-size: 6px;
+    }
+
+    .table tr td .img_product {
+        width: 20px;
+    }
+
+    .table tr td .aksi_btn {
+        border-radius: 2px;
+        color: #EEDBCD;
+        background-color: #3B8AC3;
+        padding: 1px 2px;
+        margin: auto 2px;
+    }
+
+    .table tr td .aksi_hps {
+        border-radius: 2px;
+        color: #EEDBCD;
+        background-color: red;
+        padding: 1px 2px;
+        margin: auto 2px;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .col-5 {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .col-4 {
+        width: 50%;
+        height: 300px;
+    }
+
+    .col-2 {
+        width: 100%;
+    }
+
+}
